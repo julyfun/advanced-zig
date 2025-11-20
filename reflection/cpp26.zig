@@ -13,5 +13,5 @@ pub fn main() !void {
     @field(p, rx.name) = 3;
     @field(p, ry.name) = 4;
 
-    std.debug.print("{?} {?}", .{ p, @TypeOf(rx) });
+    std.debug.print("{} {}", .{ p, @TypeOf(rx) });
 }
